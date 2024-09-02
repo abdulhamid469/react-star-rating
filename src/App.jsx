@@ -1,9 +1,11 @@
-import './App.css'
-import React from 'react'
+import './App.css';
+import StarRating from './components/StarRating';
 
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div className="container">
+      <StarRating />
+    </div>
   )
 }
 
